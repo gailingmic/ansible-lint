@@ -10,7 +10,7 @@
       "type": "object"
     },
     {
-      "pattern": "^\\$ANSIBLE_VAULT;",
+      "pattern": "(^\\$ANSIBLE_VAULT;|^!vault)",
       "type": "string"
     },
     {
